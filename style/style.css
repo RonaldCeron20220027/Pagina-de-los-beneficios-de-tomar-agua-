@@ -1,0 +1,88 @@
+body{
+    background-color: lightblue;
+}
+header{
+    background-color:aqua;
+    border-radius: 25px;
+}
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+}
+nav img{
+    width: 150px;
+    border-radius: 50px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 35px;
+}
+.imagenes{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.imagenes img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.text{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: "Lobster", sans-serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Lobster", sans-serif;
+}
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #86B1CC;
+}
+.card:hover{
+    background-color:#86B1CC ;
+    transform: scale(1.05);
+}
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card-contenido{
+    padding: 10px;
+    font-family: "Lobster", sans-serif;
+}
+.card h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Lobster", sans-serif;
+}
+.card h2{
+    font-size: 15px;
+    font-family: "Lobster", sans-serif;
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: "Lobster", sans-serif;
+}
